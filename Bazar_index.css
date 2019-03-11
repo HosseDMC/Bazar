@@ -17,13 +17,23 @@ body {
 }
 
 h1.title{
-
   margin-left:15%;
   line-height: 100px;
   float: left;
+
 }
+
+span.firstA{
+  font-size: 45px;
+}
+
+span.secA{
+  font-size: 25px;
+}
+
+
 input.inputText{
-  width: 400px;
+  width: 500px;
   padding: 10px;
   font-size: 17px;
   margin: 30px 0 0 50px;
@@ -61,7 +71,7 @@ a.AddPost{
   line-height: 102px;
   font-size:20px;
   background: #339D92;
-  margin-left: 130px;
+  margin-left: 30px;
   text-decoration:none ;
   color: white;
   border-radius: 5px;
@@ -73,14 +83,26 @@ a.AddPost:hover{
 
 
 #account{
+<<<<<<< HEAD
   width: 50px;
   height: 50px;
   float: left;
+=======
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-right: 15%;
+>>>>>>> 3be92bf5966b8d7b896f318653c72e30dde8cb1b
 }
 img{
-  width: 50px;
-  height: 50px;
-  margin: 25px 0 0 120px;
+  width: 40px;
+  height: 40px;
+  margin: 25px 0 0 0;
+}
+
+.accountName{
+  text-decoration: none;
+  color:white;
 }
 
 
