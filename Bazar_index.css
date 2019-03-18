@@ -18,6 +18,7 @@ body {
 
 h1.title{
   margin-left:15%;
+  width: 17%;
   line-height: 100px;
   float: left;
 
@@ -31,12 +32,17 @@ span.secA{
   font-size: 25px;
 }
 
+form{
+  width: 33%;
+  height: 100px;
+  float: left;
+}
 
 input.inputText{
-  width: 500px;
+  width: 70%;
   padding: 10px;
   font-size: 17px;
-  margin: 30px 0 0 50px;
+  margin: 30px 0 0 0;
   border: 1px solid white;
   outline: none;
   float: left;
@@ -45,7 +51,7 @@ input.inputText{
 }
 button.btnSearch{
     float: left;
-    width: 30px;
+    width:2%;
     padding: 20px;
     font-size: 17px;
     margin: 30px 0 0 0;
@@ -64,15 +70,15 @@ button.btnSearch:hover{
 }
 #post{
   float: left;
+  width: 13%;
+
 }
 a.AddPost{
-  width:50px;
   padding: 10px;
   line-height: 102px;
   font-size:20px;
   background: #339D92;
-  margin-left: 30px;
-  text-decoration:none ;
+  text-decoration:none;
   color: white;
   border-radius: 5px;
 }
@@ -83,17 +89,14 @@ a.AddPost:hover{
 
 
 #account{
-
-  width: 40px;
+  width: 7%;
   height: 40px;
-  float: right;
-  margin-right: 15%;
-
+  float: left;
 }
 img{
-  width: 40px;
-  height: 40px;
-  margin: 25px 0 0 0;
+  width: 45px;
+  height: 45px;
+  margin-top: 30px;
 }
 
 .accountName{
