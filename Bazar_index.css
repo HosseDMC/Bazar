@@ -50,7 +50,7 @@ button.btnSearch{
     padding: 20px;
     font-size: 17px;
     margin: 30px 0 0 0;
-    background-image: url("search-icon.png");
+    background-image: url("search-icon.pn");
     background-color:#339D92;
     border: 1px solid #339D92 ;
     border-top-right-radius: 5px;
@@ -61,7 +61,7 @@ button.btnSearch{
 }
 button.btnSearch:hover{
   background: #2B7F76 ;
-  background-image: url("search-icon.png");
+  background-image: url("search-icon.pn");
 }
 #post{
   float: left;
@@ -87,12 +87,21 @@ a.AddPost:hover{
 
 
 #account{
+<<<<<<< HEAD
   width: 4%;
   height: 40px;
   float: right;
   margin-right: 15%;
   background-color: red;
   margin-top: 30px;
+=======
+
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-right: 15%;
+
+>>>>>>> 5c8c5acd6e4d3897f7e73974244d148931bdd2e1
 }
 img{
   width: 100%;
