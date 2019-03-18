@@ -40,17 +40,10 @@ form{
 }
 
 input.inputText{
-<<<<<<< HEAD
   width: 70%;
   padding: 10px;
   font-size: 17px;
   margin: 30px 0 0 0;
-=======
-  width: 22%;
-  padding: 10px;
-  font-size: 17px;
-  margin: 30px 0 0 1%;
->>>>>>> c17fe9c5273b43c2d7465af1ac582c17302aa5a5
   border: 1px solid white;
   outline: none;
   float: left;
@@ -59,11 +52,7 @@ input.inputText{
 }
 button.btnSearch{
     float: left;
-<<<<<<< HEAD
     width:2%;
-=======
-    width: 3%;
->>>>>>> c17fe9c5273b43c2d7465af1ac582c17302aa5a5
     padding: 20px;
     font-size: 17px;
     margin: 30px 0 0 0;
@@ -82,7 +71,6 @@ button.btnSearch:hover{
 }
 #post{
   float: left;
-<<<<<<< HEAD
   width: 13%;
 
 }
@@ -92,20 +80,6 @@ a.AddPost{
   font-size:20px;
   background: #339D92;
   text-decoration:none;
-=======
-  width: 6.5%;
-  background-color: red;
-  margin-left: 5%;
-  height: 40px;
-  margin-top: 30px;
-}
-a.AddPost{
-  width: 100%;
-  font-size: 20px;
-  background: #339D92;
-
-  text-decoration:none ;
->>>>>>> c17fe9c5273b43c2d7465af1ac582c17302aa5a5
   color: white;
   border-radius: 5px;
 }
@@ -116,38 +90,17 @@ a.AddPost:hover{
 
 
 #account{
-<<<<<<< HEAD
-  width: 7%;
-  height: 40px;
-  float: left;
-}
-img{
-  width: 45px;
-  height: 45px;
-  margin-top: 30px;
-=======
-<<<<<<< HEAD
-  width: 4%;
+  width: 3%;
   height: 40px;
   float: right;
   margin-right: 15%;
-  background-color: red;
-  margin-top: 30px;
-=======
-
-  width: 40px;
-  height: 40px;
-  float: right;
-  margin-right: 15%;
-
->>>>>>> 5c8c5acd6e4d3897f7e73974244d148931bdd2e1
 }
 img{
   width: 100%;
   height: 40px;
-
->>>>>>> c17fe9c5273b43c2d7465af1ac582c17302aa5a5
+  margin-top: 30px;
 }
+
 
 .accountName{
   text-decoration: none;
