@@ -128,7 +128,7 @@ img{
   h1.title{
     width:20%;
     line-height: 100px;
-    margin-left: 5%;
+    margin-left: 3%;
   }
 
   span.firstA{
@@ -140,19 +140,19 @@ img{
   }
 
   form{
-    width:43%;
+    width:46%;
     height: 100px;
   }
 
   #post{
     float: left;
-    width: 20%;
+    width: 21%;
   }
 
   #account{
     width: 7%;
     float: left;
-    margin-right: 5%;
+    margin-right: 3%;
   }
 
   #content {
