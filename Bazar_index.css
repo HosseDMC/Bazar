@@ -1,10 +1,9 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 
-body {
+body{
   background-color: darkgrey;
   color: white;
   font-family: times;
@@ -116,4 +115,51 @@ img{
   margin-top: 2%;
   height: 1000px;
   background-color: lightgrey;
+}
+
+
+@media screen and (max-width:700px) {
+  #header {
+    background-color:#313E3C ;
+    width:100%;
+    height: 100px;
+  }
+
+  h1.title{
+    width:20%;
+    line-height: 100px;
+    margin-left: 5%;
+  }
+
+  span.firstA{
+    font-size: 35px;
+  }
+
+  span.secA{
+    font-size: 20px;
+  }
+
+  form{
+    width:43%;
+    height: 100px;
+  }
+
+  #post{
+    float: left;
+    width: 20%;
+  }
+
+  #account{
+    width: 7%;
+    float: left;
+    margin-right: 5%;
+  }
+
+  #content {
+    width:100%;
+    margin: 0 0 0 0;
+    height: 700px;
+    background-color: lightgrey;
+  }
+
 }
