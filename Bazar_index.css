@@ -23,7 +23,7 @@ h1.title{
 }
 
 span.firstA{
-  font-size: 40px;
+  font-size: 35px;
 }
 
 span.secA{
@@ -112,9 +112,10 @@ img{
   width:70%;
   float: left;
   margin-left: 15%;
-  margin-top: 2%;
+  margin-top: 1%;
   height: 1000px;
   background-color: lightgrey;
+box-shadow:0 20px 10px #888888;
 }
 
 
