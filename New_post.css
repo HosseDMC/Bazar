@@ -16,11 +16,14 @@ body {
   background-color: #313E3C;
 }
 
-h1.title{
+a.title{
   margin-left:15%;
   width: 17%;
   line-height: 100px;
   float: left;
+  color: white;
+  text-decoration:none;
+
 }
 
 span.firstA{
@@ -117,6 +120,7 @@ img{
   height: 650px;
   background-color: lightgrey;
   box-shadow:0 20px 10px #888888;
+  text-align: center;
 }
 
 
@@ -140,25 +144,23 @@ img{
 
 
 /* Set a style for all buttons */
-.btnSignIn,.btnSignUp{
+.btnSignUp{
   background-color:#339D92;
   color: white;
   padding: 10px 15px;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 39%;
   opacity: 0.9;
-  float: right;
-  font-size: 1.5em;
+  float: left;
+  font-size: 2em;
   font-family: times;
   border-radius: 5px;
+  margin-left: 10%;
+  margin-top: 21%;
 }
-.btnSignUp{
-  margin: 10px 10px 0 5px;
-}
-.btnSignIn{
-  margin:10px 0 0 0;
-}
+
+
 
 button:hover {
   opacity:2;
@@ -332,4 +334,204 @@ hr {
     background-color: lightgrey;
   }
 
+}
+
+
+
+.third[type=text], .third[type=password] {
+  width: 100%;
+  height: 40px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: white;
+  border-radius: 5px;
+}
+
+/* Add a background color when the inputs get focus */
+.third[type=text]:focus, .third[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+#id02 h1{
+  color: white;
+  width: 100%;
+}
+
+#id02 p{
+  color: white;
+    width: 100%;
+}
+
+#id02{
+  width: 100%;
+padding-left: 25%;
+color: white;
+border-radius: 5px;
+}
+
+/* Set a style for all buttons */
+.btnLoggin {
+  background-color:#339D92;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width: 39%;
+  opacity: 0.9;
+  float: left;
+  font-size: 2em;
+  font-family: times;
+  border-radius: 5px;
+  margin-top: 21%;
+  margin-left: 2%;
+}
+
+
+
+.btnLoggin:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+
+
+/* Center the image and position the close button */
+.imgcontainer2 {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.loging {
+  float: left;
+  width: 100%;
+  background: #339D92;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+img.avatar2 {
+  width: 20%;
+  border-radius: 50%;
+  height: 100px;
+}
+
+.container2 {
+  width: 90%;
+  color: white;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+.container3 {
+  width: 90%;
+  color: white;
+  margin-left: 5%;
+  margin-top: 3%;
+
+}
+
+span.psw2 {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color:#658781;
+}
+
+/* Modal Content/Box */
+.modal2-content{
+  background-color: #313E3C;
+  margin: 5% auto 10% auto; /* 5% from the top, 15% from the bottom and centered */
+  width: 50%; /* Could be more or less, depending on screen size */
+  height: 530px;
+  border-radius: 5px;
+}
+
+/* The Close Button (x) */
+.close2 {
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  background: red;
+  float: right;
+
+}
+
+.close2:hover,
+.close2:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+.cancelbtn2 {
+  float: left;
+  width: 50%;
+  background: darkred;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+
+span.psw2 {
+   display: block;
+   float: right;
+   color: white;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw2 {
+     display: block;
+     float: none;
+  }
+  .cancelbtn2 {
+     width: auto;
+     padding: 10px 18px;
+     background-color: #f44336;
+  }
 }
