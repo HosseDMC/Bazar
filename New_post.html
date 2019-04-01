@@ -1,7 +1,7 @@
 <!Doctype html>
 <html>
 <head>
-    <title>BAZAR</title>
+    <title>latest</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="New_post.css">
 
@@ -9,7 +9,7 @@
 <body>
   <!--mine header and navigation-->
   <div id="header">
-    <h1 class="title"> <span class="firstA">B</span><span class="secA">AZAAR</span></h1>
+    <a class="title" href="index.html"> <span class="firstA">B</span><span class="secA">AZAAR</span></a>
 
     <form class="searchBar"action="#">
       <input class="inputText" type="text" placeholder="Search.." name="search">
@@ -32,8 +32,8 @@
 
 <!-- my content-->
   <div id="content">
-      <button class="btnSignUp" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
-      <button class="btnSignIn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign In</button>
+      <button class="btnSignUp" onclick="document.getElementById('id01').style.display='block'" >Sign Up</button>
+
     <div id="allinone">
     <div id="id01" class="modal">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
@@ -65,18 +65,66 @@
       </form>
     </div>
     </div>
-      </div>
-      <script>
-      // Get the modal
-      var modal = document.getElementById('id01');
 
-      // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function(event) {
-        if (event.target == modal) {
-          modal.style.display = "none";
-        }
+
+
+      <button class="btnLoggin" onclick="document.getElementById('id02').style.display='block'">Login</button>
+<div id="allintwo">
+      <div id="id02" class="modal2">
+
+        <form class="modal2-content" action="user-icon.png">
+          <div class="imgcontainer2">
+          <!--  <span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span>-->
+            <img src="user-icon.png" alt="Avatar" class="avatar2">
+          </div>
+
+          <div class="container2">
+            <label for="uname"><b>Username</b></label>
+            <input class="third" type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input class="third" type="password" placeholder="Enter Password" name="psw" required>
+
+            <button class="loging" type="submit">Login</button>
+            <label>
+              <input class="third" type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+
+          <div class="container3" style="background-color:#313E3C">
+            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn2">Cancel</button>
+            <span class="psw2">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+</div>
+
+    </div>
+
+
+          <script>
+          // Get the modal
+          var modal2 = document.getElementById('id02');
+
+          // When the user clicks anywhere outside of the modal, close it
+          window.onclick = function(event) {
+              if (event.target == modal2) {
+                  modal.style.display = "none";
+              }
+          }
+          </script>
+
+    <script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
       }
-      </script>
+    }
+    </script>
 
 </body>
 </html>
