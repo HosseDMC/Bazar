@@ -15,11 +15,13 @@ body{
   background-color: #313E3C;
 }
 
-h1.title{
+a.title{
   margin-left:15%;
   width: 17%;
   line-height: 100px;
   float: left;
+color: white;
+  text-decoration:none;
 }
 
 span.firstA{
