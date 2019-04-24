@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  color: white;
+  font-family: times;
+  background-color: darkgrey;
+}
+
+#header {
+  width: 100%;
+  height: 100px;
+  background-color: #313E3C;
+}
+
+a.title{
+  margin-left:15%;
+  width: 17%;
+  line-height: 100px;
+  float: left;
+  color: white;
+  text-decoration:none;
+}
+
+span.firstA{
+  font-size: 35px;
+}
+
+span.secA{
+  font-size: 20px;
+}
+
+form{
+  width: 33%;
+  height: 100px;
+  float: left;
+}
+
+input.inputText{
+  width: 70%;
+  padding: 10px;
+  font-size: 17px;
+  margin: 30px 0 0 0;
+  border: 1px solid white;
+  outline: none;
+  float: left;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button.btnSearch{
+    float: left;
+    width:2%;
+    padding: 20px;
+    font-size: 17px;
+    margin: 30px 0 0 0;
+    background-image: url("search-icon.png");
+    background-color:#339D92;
+    border: 1px solid #339D92 ;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: red; /* fa fa-search ska fixas*/
+    cursor: pointer;
+    outline: none;
+}
+button.btnSearch:hover{
+  background: #2B7F76 ;
+  background-image: url("search-icon.png");
+}
+#post{
+  float: left;
+  width: 13%;
+
+}
+a.AddPost{
+  padding: 10px;
+  line-height: 102px;
+  font-size:20px;
+  background: #339D92;
+  text-decoration:none;
+  color: white;
+  border-radius: 5px;
+}
+
+a.AddPost:hover{
+  background: #2B7F76;
+}
+
+
+#account{
+  width: 3%;
+  height: 40px;
+  float: right;
+  margin-right: 15%;
+}
+img.user-icon{
+  width: 100%;
+  height: 40px;
+  margin-top: 30px;
+}
+
+
+.accountName{
+  text-decoration: none;
+  color:white;
+  text-align: center;
+  float: left;
+}
+
+
+
+#content {
+  width:70%;
+  float: left;
+  margin-left: 15%;
+  margin-top: 1%;
+  height: 2000px;
+  background-color: lightgrey;
+  box-shadow:0 20px 10px #888888;
+}
+
+
+
+#UserProfile{
+  width: 100%;
+  height: 100px;
+  background:#313E3C;
+  text-align: center;
+  border-top: 1px solid #339D92;
+}
+
+
+.UserPicture{
+  width: 50px;
+  height: 50px;
+margin-top: 10px;
+}
+
+h2.UserName{
+  color: #339D92;
+}
+
+
+form.Upload{
+  width: 80%;
+  height: 330px;
+  margin-left: 10%;
+  margin-top: 20px;
+  background: lightgrey;
+  box-shadow:0 10px 10px #888888;
+}
+
+
+#output_image{
+  width: 40%;
+  height: 250px;
+  float: left;
+  margin-left: 6.6%;
+  background: white;
+  opacity: 0.8;
+}
+
+
+label.labelTitlePost, .labelDescription, .labelContactPost{
+  width: 40%;
+  float: left;
+  margin-left: 6.6%;
+  color: black;
+  font-family: times;
+  font-size: 15px;
+}
+input.titleOfPost, .contactOfPost{
+  width:39%;
+  margin-left: 6.6%;
+  font-family: times;
+  outline: none;
+  padding: 2px;
+}
+
+
+.description{
+  outline:none;
+  width: 40%;
+  height: 100px;
+  float: left;
+  margin-left: 6.6%;
+}
+
+input.inputImg{
+  width: 40%;
+  margin-left: 6.6%;
+  float: left;
+  background:#339D92;
+  margin-top: 5Px;
+  border-radius: 5px;
+}
+input.submit{
+  width: 40%;
+  float: right;
+  margin-top: 30Px;
+  margin-right:6.7%;
+  padding: 15px;
+  font-size:20px;
+  background: #339D92;
+  border: 1px solid #339D92;
+  color: white;
+  border-radius: 5px;
+  font-family: times;
+  font-size: 20px;
+  cursor: pointer;
+}
+input.submit:hover{
+    background: #2B7F76;
+}
+input.inputImg:hover{
+  background: #2B7F76;
+}
+
+
+
+
+/*my post*/
+h3{
+  width: 100%;
+  height: 25px;
+  float: left;
+  color:#339D92;
+  text-align:center;
+  margin-top: 20px;
+  font-size: 20px;
+  background-color:#313E3C;
+}
+
+div.myPosts{
+  width: 80%;
+  height: 330px;
+  margin-left: 10%;
+  margin-top: 20px;
+  background:lightgrey;
+  box-shadow:0 10px 10px #888888;
+  float: left;
+  border-top: 1px solid #339D92;
+}
+h4{
+  opacity: 0.3;
+}
+div.postsTitle, .postsDescription, .postsContact{
+  width: 40%;
+  margin-left: 6.6%;
+  margin-top: 10px;
+  float: left;
+  padding: 10px;
+  color:black;
+  border-bottom: 1px solid #339D92;
+}
+
+div.postsImg{
+  width: 40%;
+  height: 80%;
+  margin-top: 10px;
+  margin-right: 6.6%;
+  background: grey;
+  float: right;
+}
+
+
+
+
+
+#mybtn {
+  display: none;
+  position: fixed;
+  top: 100px;
+  left: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#339D92;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: times;
+}
+
+#mybtn:hover {
+  background-color: #2B7F76;
+}
+
+@media screen and (max-width:700px) {
+  #header {
+    background-color:#313E3C ;
+    width:100%;
+    height: 100px;
+  }
+
+a.title{
+    width:20%;
+    line-height: 100px;
+    margin-left: 3%;
+  }
+
+  span.firstA{
+    font-size: 35px;
+  }
+
+  span.secA{
+    font-size: 20px;
+  }
+
+  form{
+    width:46%;
+    height: 100px;
+  }
+
+  #post{
+    float: left;
+    width: 21%;
+  }
+
+  #account{
+    width: 7%;
+    float: left;
+    margin-right: 3%;
+  }
+
+  #content {
+    width:100%;
+    margin: 0 0 0 0;
+    height: 700px;
+    background-color: lightgrey;
+  }
+
+  input.inputImg{
+    width: 45%;
+    margin-left: 3.33%;
+    float: left;
+  }
+
+  .description{
+    width: 45%;
+    height: 100px;
+    float: left;
+    margin-left: 3.33%;
+  }
+  #output_image{
+  width: 45%;
+  height: 55%;
+  float: left;
+  margin-left: 3.33%;
+  }
+
+  label.labelTitlePost, .labelDescription, .labelContactPost{
+    font-size: 13px;
+    width: 45%;
+    float: left;
+    margin-left: 3.33%;
+  }
+
+  input.titleOfPost, .contactOfPost{
+    width: 45%;
+    float: left;
+    margin-left: 3.33%
+  }
+
+  input.submit{
+    width: 93.33%;
+    margin-left: 3.33%;
+    float: left;
+    margin-top: 10px;
+  }
+
+
+}
